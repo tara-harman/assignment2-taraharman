@@ -13,21 +13,34 @@
 ========================= */
 
 body {
-    font-family: "Segoe UI", Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f1ee;
-    color: #333;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.7;
+    background-color: #f1e7dc;
+    color: #3b2f2f;
 }
 
 /* =========================
-   Header
+   Header (Rustic Look)
 ========================= */
 
 header {
-    background-color: #3e2c23;
-    color: white;
+    background-color: #4b2e2b;
+    color: #fdf8f3;
     text-align: center;
-    padding: 25px 15px 15px 15px;
+    padding: 35px 20px 25px 20px;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 38px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+header p {
+    font-weight: 300;
+    font-size: 17px;
+    opacity: 0.9;
 }
 
 /* =========================
@@ -37,10 +50,10 @@ header {
 nav {
     position: sticky;
     top: 0;
-    background-color: #5c4033;
-    padding: 12px 0;
+    background-color: #6f4e37;
+    padding: 14px 0;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
     z-index: 1000;
 }
 
@@ -54,21 +67,19 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 18px;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: #fdf8f3;
     font-weight: 500;
-    padding: 6px 10px;
+    letter-spacing: 0.5px;
     transition: all 0.3s ease;
 }
 
 nav ul li a:hover {
-    background-color: #d9a066;
-    color: #3e2c23;
-    border-radius: 5px;
+    color: #f4c27a;
 }
 
 /* =========================
@@ -79,28 +90,30 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px 20px;
+    padding: 50px 20px;
 }
 
 section {
-    background-color: white;
+    background-color: #fffaf4;
     width: 100%;
-    max-width: 700px;
-    margin-bottom: 30px;
-    padding: 25px;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    max-width: 750px;
+    margin-bottom: 35px;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 8px 18px rgba(75, 46, 43, 0.08);
+    border: 1px solid #e6d5c3;
 }
 
 section h2 {
-    margin-bottom: 12px;
-    color: #3e2c23;
-    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: #4b2e2b;
 }
 
 section p {
-    margin-bottom: 10px;
     font-size: 16px;
+    margin-bottom: 12px;
 }
 
 /* =========================
@@ -112,6 +125,7 @@ img {
     border-radius: 6px;
     max-width: 100%;
     height: auto;
+    filter: slightly(0.95);
 }
 
 /* =========================
@@ -119,9 +133,10 @@ img {
 ========================= */
 
 footer {
-    background-color: #3e2c23;
-    color: white;
+    background-color: #4b2e2b;
+    color: #fdf8f3;
     text-align: center;
-    padding: 18px;
-    margin-top: 40px;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 14px;
 }
