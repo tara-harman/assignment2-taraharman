@@ -1,60 +1,51 @@
-/*General Styling*/
+/* =========================
+   Reset
+========================= */
 
 * {
-    /*Reset Spacing*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* =========================
+   Body Styling
+========================= */
 
 body {
     font-family: "Segoe UI", Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f1ee;
     color: #333;
-    /* Space for fixed header + nav */
-    padding-top: 170px;
 }
 
-/*Sticky Header*/
+/* =========================
+   Header
+========================= */
 
 header {
-    position: fixed;
-    top: 0;
-    width: 100%;
     background-color: #3e2c23;
     color: white;
     text-align: center;
-    padding: 20px 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    z-index: 1000;
+    padding: 25px 15px 15px 15px;
 }
 
-header h1 {
-    font-size: 28px;
-    margin-bottom: 5px;
-}
-
-header p {
-    font-size: 16px;
-    opacity: 0.9;
-}
-
-/*Sticky Navigation*/
+/* =========================
+   Sticky Navigation
+========================= */
 
 nav {
-    position: fixed;
-    top: 100px; /* sits directly below header */
-    width: 100%;
+    position: sticky;
+    top: 0;
     background-color: #5c4033;
     padding: 12px 0;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-    z-index: 999;
+    z-index: 1000;
 }
 
 nav h2 {
-    display: none; /* hides "Navigation" heading */
+    display: none;
 }
 
 nav ul {
@@ -80,7 +71,9 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-/*Centered Main Content*/
+/* =========================
+   Main Content
+========================= */
 
 main {
     display: flex;
@@ -110,7 +103,9 @@ section p {
     font-size: 16px;
 }
 
-/*Image Styling*/
+/* =========================
+   Images
+========================= */
 
 img {
     margin-top: 15px;
@@ -119,7 +114,9 @@ img {
     height: auto;
 }
 
-/*Footer*/
+/* =========================
+   Footer
+========================= */
 
 footer {
     background-color: #3e2c23;
