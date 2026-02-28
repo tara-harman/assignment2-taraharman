@@ -33,6 +33,7 @@ header {
     z-index: 1000;
 }
 
+
 header h1 {
     font-family: 'Playfair Display', serif;
     font-size: 38px;
@@ -52,7 +53,7 @@ header p {
 
 nav {
     position: sticky;
-    top: 120px; /* sits below header */
+    top: 110px; /* height of header */
     background-color: #6f4e37;
     padding: 14px 0;
     text-align: center;
