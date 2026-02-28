@@ -29,7 +29,9 @@ body {
     z-index: 1000;
 }
 
-/* Header */
+/* -------------------------
+   Header
+------------------------- */
 
 header {
     background-color: #4b2e2b;
@@ -51,7 +53,9 @@ header p {
     opacity: 0.9;
 }
 
-/* Navigation */
+/* -------------------------
+   Navigation
+------------------------- */
 
 nav {
     background-color: #6f4e37;
@@ -86,18 +90,17 @@ nav ul li a:hover {
 }
 
 /* =========================
-   Main Content
+   Main Content Spacing
 ========================= */
 
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 60px 20px; /* Equal top and bottom spacing */
-    gap: 35px; /* Even spacing between sections */
+    padding: 60px 20px; /* Top & bottom spacing around all sections */
+    gap: 35px;           /* Consistent spacing between sections */
 }
 
-/* Remove margin from sections */
 section {
     background-color: #fffaf4;
     width: 100%;
@@ -108,6 +111,7 @@ section {
     border: 1px solid #e6d5c3;
 }
 
+/* Section headings & paragraphs */
 section h2 {
     font-family: 'Playfair Display', serif;
     font-size: 26px;
@@ -129,7 +133,6 @@ img {
     border-radius: 6px;
     max-width: 100%;
     height: auto;
-    filter: slightly(0.95);
 }
 
 /* =========================
