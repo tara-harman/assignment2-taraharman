@@ -1,6 +1,4 @@
-/* =========================
-   Reset
-========================= */
+/*Reset*/
 
 * {
     margin: 0;
@@ -8,9 +6,7 @@
     box-sizing: border-box;
 }
 
-/* =========================
-   Body Styling
-========================= */
+/*Body Styling*/
 
 body {
     font-family: 'Lato', sans-serif;
@@ -19,9 +15,7 @@ body {
     color: #3b2f2f;
 }
 
-/* =========================
-   Unified Sticky Top Bar
-========================= */
+/*Sticky Top Bar*/
 
 .top-bar {
     position: sticky;
@@ -29,9 +23,7 @@ body {
     z-index: 1000;
 }
 
-/* -------------------------
-   Header
-------------------------- */
+/*Header*/
 
 header {
     background-color: #4b2e2b;
@@ -53,9 +45,7 @@ header p {
     opacity: 0.9;
 }
 
-/* -------------------------
-   Navigation
-------------------------- */
+/*Navigation*/
 
 nav {
     background-color: #6f4e37;
@@ -89,16 +79,14 @@ nav ul li a:hover {
     color: #f4c27a;
 }
 
-/* =========================
-   Main Content Spacing
-========================= */
+/*Main Content Spacing*/
 
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 60px 20px; /* Top & bottom spacing around all sections */
-    gap: 35px;           /* Consistent spacing between sections */
+    gap: 35px; /* Consistent spacing between sections */
 }
 
 section {
@@ -124,9 +112,7 @@ section p {
     margin-bottom: 12px;
 }
 
-/* =========================
-   Images
-========================= */
+/*Images*/
 
 img {
     margin-top: 15px;
@@ -135,9 +121,7 @@ img {
     height: auto;
 }
 
-/* =========================
-   Footer
-========================= */
+/*Footer*/
 
 footer {
     background-color: #4b2e2b;
